@@ -20,15 +20,15 @@ class ViewController: UIViewController,CLLocationManagerDelegate {
         super.viewDidLoad()
         lblLocationInfo1.text = ""
         lblLocationInfo2.text = ""
-        locationManger.delegate = self
-        locationManger.desiredAccuracy = kCLLocationAccuracyBest
-        locationManger.requestWhenInUseAuthorization()
+        locationManger.delegate = self //정확도를 최고로 설정
+        locationManger.desiredAccuracy = kCLLocationAccuracyBest //위치 데이터를 추적하기 위해 사용자에게 승인 요구
+        locationManger.requestWhenInUseAuthorization() //위치 업데이트를 시작
         locationManger.startUpdatingLocation()
         myMap.showsUserLocation = true
         
         // Do any additional setup after loading the view.
     }
-
+ 
     func goLocation(latitudeValue: CLLocationDegrees, longitudeValue: CLLocationDegrees, delta span : Double) -> CLLocationCoordinate2D {
         
         let pLocation = CLLocationCoordinate2DMake(latitudeValue, longitudeValue)
@@ -37,7 +37,7 @@ class ViewController: UIViewController,CLLocationManagerDelegate {
         myMap.setRegion(pRegion, animated: true)
         return pLocation
     }
-    
+    //특정 위도와 경도에 핀 설치하고 핀에 타이틀과 서브 타이틀의 문자열 표시
     func setAnnotation(latitudeValue: CLLocationDegrees, longitudeValue : CLLocationDegrees, delta span :Double, title strTitle: String, subtitle strSubtitle: String) {
         let annotation = MKPointAnnotation()
         annotation.coordinate = goLocation(latitudeValue: latitudeValue, longitudeValue: longitudeValue, delta: span)
@@ -46,7 +46,7 @@ class ViewController: UIViewController,CLLocationManagerDelegate {
         myMap.addAnnotation(annotation)
     }
     
-    
+    //위치 정보에서 국가, 지역, 도로를 추출하여 레이블에 표시
     func locationManager(_manger: CLLocationManager, didUpdateLocations
                             locations: [CLLocation]) {
         let pLocation = locations.last
@@ -73,19 +73,19 @@ class ViewController: UIViewController,CLLocationManagerDelegate {
         locationManger.stopUpdatingLocation()
         
     }
-    
+    //세그먼트 컨트롤을 선택하였을 때 호출
     @IBAction func sgChangeLocation(_ sender: UISegmentedControl) {
-        if sender.selectedSegmentIndex == 0 {
+        if sender.selectedSegmentIndex == 0 { // "현재 위치"선택 - 현재 위치 표시
             self.lblLocationInfo1.text = ""
             self.lblLocationInfo2.text = ""
             locationManger.startUpdatingLocation()
             
-        } else if sender.selectedSegmentIndex == 1 {
+        } else if sender.selectedSegmentIndex == 1 { // "폴리텍대학"선택 - 핀을 설치하고 위치 정보 표시
             setAnnotation(latitudeValue: 37.751853, longitudeValue: 128.876057400000004, delta: 1, title:"한국폴리텍대학 강릉캠퍼스", subtitle: "강원도 강릉시 남산초교길 121")
             self.lblLocationInfo1.text = "보고 계신 위치"
             self.lblLocationInfo2.text = "한국폴리텍대학 강릉캠퍼스"
             
-        } else if sender.selectedSegmentIndex == 2 {
+        } else if sender.selectedSegmentIndex == 2 { // "이지스퍼블리싱"선택 - 핀을 설치하고 위치 정보 표시
             setAnnotation(latitudeValue: 37.556876, longitudeValue: 126.914066, delta: 0.1, title:"이지스퍼블리싱" , subtitle: "서울시 마포구 잔다리로 109 이지스 빌딩")
             self.lblLocationInfo1.text = "보고 계신 위치"
             self.lblLocationInfo2.text = "이지스퍼블리싱 출판사"
