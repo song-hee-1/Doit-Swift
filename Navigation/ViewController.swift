@@ -7,8 +7,6 @@
 
 import UIKit
 
-
-
 class ViewController: UIViewController,EditDelegate {
 
     

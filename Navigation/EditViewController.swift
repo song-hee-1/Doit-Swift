@@ -35,7 +35,7 @@ class EditViewController: UIViewController {
     @IBAction func btnDone(_ sender: UIButton) {
         if delegate != nil {
             delegate?.didMessageEditDone(_controller: self, message: txMessage.text!)
-            delegate?.didImageOnOffDone(_controller: self, isOn: isOn)
+            delegate?.didImageOnOffDone(_controller:  self, isOn: isOn)
         }
         _ = navigationController?.popViewController(animated: true)
     }
