@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9723F03126C0019200420E32 /* Sicilian_Breeze.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 9723F03026C0019200420E32 /* Sicilian_Breeze.mp3 */; };
 		97DD854F26BD6B9A00A35107 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97DD854E26BD6B9A00A35107 /* AppDelegate.swift */; };
 		97DD855126BD6B9A00A35107 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97DD855026BD6B9A00A35107 /* SceneDelegate.swift */; };
 		97DD855326BD6B9A00A35107 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97DD855226BD6B9A00A35107 /* ViewController.swift */; };
@@ -16,6 +17,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		9723F03026C0019200420E32 /* Sicilian_Breeze.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Sicilian_Breeze.mp3; sourceTree = "<group>"; };
 		97DD854B26BD6B9A00A35107 /* Audio.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Audio.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		97DD854E26BD6B9A00A35107 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		97DD855026BD6B9A00A35107 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -62,6 +64,7 @@
 				97DD855426BD6B9A00A35107 /* Main.storyboard */,
 				97DD855726BD6B9B00A35107 /* Assets.xcassets */,
 				97DD855926BD6B9B00A35107 /* LaunchScreen.storyboard */,
+				9723F03026C0019200420E32 /* Sicilian_Breeze.mp3 */,
 				97DD855C26BD6B9B00A35107 /* Info.plist */,
 			);
 			path = Audio;
@@ -125,6 +128,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				97DD855B26BD6B9B00A35107 /* LaunchScreen.storyboard in Resources */,
+				9723F03126C0019200420E32 /* Sicilian_Breeze.mp3 in Resources */,
 				97DD855826BD6B9B00A35107 /* Assets.xcassets in Resources */,
 				97DD855626BD6B9A00A35107 /* Main.storyboard in Resources */,
 			);
