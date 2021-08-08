@@ -15,7 +15,6 @@ class ViewController: UIViewController,AVAudioPlayerDelegate {
     let MAX_VOlUME : Float = 10.0
     var progressTimer : Timer!
     
-    
 
     @IBOutlet var pvProgressPlay: UIProgressView!
     @IBOutlet var lblCurrentTime: UILabel!
