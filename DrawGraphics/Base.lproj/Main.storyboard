@@ -28,6 +28,9 @@
                                                     <constraint firstAttribute="height" constant="40" id="Wk0-sm-mii"/>
                                                 </constraints>
                                                 <state key="normal" title="선"/>
+                                                <connections>
+                                                    <action selector="btnDrawLine:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Cum-94-k2L"/>
+                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hTV-sS-r2P">
                                                 <rect key="frame" x="71.666666666666657" y="0.0" width="71.666666666666657" height="40"/>
@@ -35,6 +38,9 @@
                                                     <constraint firstAttribute="height" constant="40" id="J1x-um-g02"/>
                                                 </constraints>
                                                 <state key="normal" title="사각형"/>
+                                                <connections>
+                                                    <action selector="btnDrawREctangle:" destination="BYZ-38-t0r" eventType="touchUpInside" id="9OJ-p4-n8G"/>
+                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bgA-ht-jDv">
                                                 <rect key="frame" x="143.33333333333334" y="0.0" width="71.333333333333343" height="40"/>
@@ -42,6 +48,9 @@
                                                     <constraint firstAttribute="height" constant="40" id="CSR-vv-xAb"/>
                                                 </constraints>
                                                 <state key="normal" title="원"/>
+                                                <connections>
+                                                    <action selector="btnDrawCircle:" destination="BYZ-38-t0r" eventType="touchUpInside" id="oNt-Si-X2l"/>
+                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8Zo-73-pX0">
                                                 <rect key="frame" x="214.66666666666666" y="0.0" width="71.666666666666657" height="40"/>
@@ -49,6 +58,9 @@
                                                     <constraint firstAttribute="height" constant="40" id="agV-n4-7Fi"/>
                                                 </constraints>
                                                 <state key="normal" title="호"/>
+                                                <connections>
+                                                    <action selector="btnDrawArc:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Eyj-rh-xrQ"/>
+                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jjz-7k-FUj">
                                                 <rect key="frame" x="286.33333333333331" y="0.0" width="71.666666666666686" height="40"/>
@@ -56,6 +68,9 @@
                                                     <constraint firstAttribute="height" constant="40" id="HB0-Hd-3XZ"/>
                                                 </constraints>
                                                 <state key="normal" title="채우기"/>
+                                                <connections>
+                                                    <action selector="btnDrawFill:" destination="BYZ-38-t0r" eventType="touchUpInside" id="2ls-pH-JlE"/>
+                                                </connections>
                                             </button>
                                         </subviews>
                                     </stackView>
@@ -74,6 +89,9 @@
                             <constraint firstItem="wkt-BE-F78" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="mdV-Sv-lXH"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="imgView" destination="2nf-Wr-HRa" id="WXU-R1-cK4"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
