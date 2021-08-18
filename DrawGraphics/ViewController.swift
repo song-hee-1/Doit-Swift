@@ -37,12 +37,6 @@ class ViewController: UIViewController {
         context.strokePath()
         imgView.image = UIGraphicsGetImageFromCurrentImageContext()
         UIGraphicsEndImageContext()
-        
-        
-        
-        
-        
-        
     }
     
     @IBAction func btnDrawREctangle(_ sender: UIButton) {
@@ -66,7 +60,7 @@ class ViewController: UIViewController {
         context.setLineWidth(2.0)
         context.setStrokeColor(UIColor.red.cgColor)
         
-        context.addRect(CGRect(x: 70, y: 50, width: 200, height: 100))
+        context.addEllipse(in: CGRect(x: 70, y: 50, width: 200, height: 100))
         context.strokePath()
         
         context.setLineWidth(5.0)
@@ -132,10 +126,11 @@ class ViewController: UIViewController {
         
         context.move(to: CGPoint(x: 170, y: 350))
         context.addLine(to: CGPoint(x: 270, y: 450))
-        context.addLine(to: CGPoint(x: 70, y: 450))
+        context.addLine(to: CGPoint(x:  70, y: 450))
         context.addLine(to: CGPoint(x: 170, y: 350))
         context.fillPath()
         context.strokePath()
+        
         
         imgView.image = UIGraphicsGetImageFromCurrentImageContext()
         UIGraphicsEndImageContext()
