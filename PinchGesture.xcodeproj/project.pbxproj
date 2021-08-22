@@ -13,6 +13,7 @@
 		9739B87726D13C990020E6D9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9739B87526D13C990020E6D9 /* Main.storyboard */; };
 		9739B87926D13C9A0020E6D9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9739B87826D13C9A0020E6D9 /* Assets.xcassets */; };
 		9739B87C26D13C9A0020E6D9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9739B87A26D13C9A0020E6D9 /* LaunchScreen.storyboard */; };
+		9741D3AF26D2633F00EC156F /* img-06.png in Resources */ = {isa = PBXBuildFile; fileRef = 9741D3AE26D2633F00EC156F /* img-06.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		9739B87826D13C9A0020E6D9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9739B87B26D13C9A0020E6D9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9739B87D26D13C9A0020E6D9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9741D3AE26D2633F00EC156F /* img-06.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "img-06.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +64,7 @@
 				9739B87526D13C990020E6D9 /* Main.storyboard */,
 				9739B87826D13C9A0020E6D9 /* Assets.xcassets */,
 				9739B87A26D13C9A0020E6D9 /* LaunchScreen.storyboard */,
+				9741D3AE26D2633F00EC156F /* img-06.png */,
 				9739B87D26D13C9A0020E6D9 /* Info.plist */,
 			);
 			path = PinchGesture;
@@ -125,6 +128,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				9739B87C26D13C9A0020E6D9 /* LaunchScreen.storyboard in Resources */,
+				9741D3AF26D2633F00EC156F /* img-06.png in Resources */,
 				9739B87926D13C9A0020E6D9 /* Assets.xcassets in Resources */,
 				9739B87726D13C990020E6D9 /* Main.storyboard in Resources */,
 			);
