@@ -8,6 +8,13 @@
 import UIKit
 
 class ViewController: UIViewController {
+    
+    func loadWebPage(_ url: String) {
+       let myUrl = URL(string: url)
+       let myRequest = URLRequest(url: myUrl!)
+       myWebView.load(myRequest)
+   }
+
 
     override func viewDidLoad() {
         super.viewDidLoad()
