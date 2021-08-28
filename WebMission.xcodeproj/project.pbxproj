@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		975369A126DA0A8E000EEFD5 /* htmlView.html in Resources */ = {isa = PBXBuildFile; fileRef = 975369A026DA0A8E000EEFD5 /* htmlView.html */; };
+		975369A426DA0CAD000EEFD5 /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 975369A326DA0CAD000EEFD5 /* WebKit.framework */; };
 		97FA7A7E26D7394100D7D1AC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97FA7A7D26D7394100D7D1AC /* AppDelegate.swift */; };
 		97FA7A8026D7394100D7D1AC /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97FA7A7F26D7394100D7D1AC /* SceneDelegate.swift */; };
 		97FA7A8226D7394100D7D1AC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97FA7A8126D7394100D7D1AC /* ViewController.swift */; };
@@ -16,6 +18,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		975369A026DA0A8E000EEFD5 /* htmlView.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = htmlView.html; sourceTree = "<group>"; };
+		975369A326DA0CAD000EEFD5 /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
 		97FA7A7A26D7394100D7D1AC /* WebMission.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WebMission.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		97FA7A7D26D7394100D7D1AC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		97FA7A7F26D7394100D7D1AC /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -31,17 +35,27 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				975369A426DA0CAD000EEFD5 /* WebKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		975369A226DA0CAD000EEFD5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				975369A326DA0CAD000EEFD5 /* WebKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		97FA7A7126D7394100D7D1AC = {
 			isa = PBXGroup;
 			children = (
 				97FA7A7C26D7394100D7D1AC /* WebMission */,
 				97FA7A7B26D7394100D7D1AC /* Products */,
+				975369A226DA0CAD000EEFD5 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,6 +70,7 @@
 		97FA7A7C26D7394100D7D1AC /* WebMission */ = {
 			isa = PBXGroup;
 			children = (
+				975369A026DA0A8E000EEFD5 /* htmlView.html */,
 				97FA7A7D26D7394100D7D1AC /* AppDelegate.swift */,
 				97FA7A7F26D7394100D7D1AC /* SceneDelegate.swift */,
 				97FA7A8126D7394100D7D1AC /* ViewController.swift */,
@@ -124,6 +139,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				975369A126DA0A8E000EEFD5 /* htmlView.html in Resources */,
 				97FA7A8A26D7394200D7D1AC /* LaunchScreen.storyboard in Resources */,
 				97FA7A8726D7394200D7D1AC /* Assets.xcassets in Resources */,
 				97FA7A8526D7394100D7D1AC /* Main.storyboard in Resources */,
