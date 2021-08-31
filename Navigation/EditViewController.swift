@@ -10,6 +10,7 @@ import UIKit
 protocol EditDelegate {
     func didMessageEditDone(_controller: EditViewController, message:String)
     func didImageOnOffDone(_controller: EditViewController, isOn:Bool)
+    func didImageZoomDone(_controller: EditViewController, isZoom:Bool)
 }
 
 
@@ -18,11 +19,14 @@ class EditViewController: UIViewController {
     var textMessage: String = ""
     var delegate: EditDelegate?
     var isOn = false
+    var isZoom = false
 
     @IBOutlet var lblWay: UILabel!
     @IBOutlet var txMessage: UITextField!
     
     @IBOutlet var swIsOn: UISwitch!
+    @IBOutlet var btnZoom: UIButton!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
@@ -46,6 +50,31 @@ class EditViewController: UIViewController {
             isOn = false
         }
     }
+    
+    
+   
+    
+    @IBAction func btnZoom(_ sender: UIButton) {
+        let scale:CGFloat = 2.0
+        var newWidth:CGFloat, newHight: CGFloat
+        
+        if (isZoom) {
+            newWidth = imgView.frame.width/scale
+            newHight = imgView.frame.height/scale
+            btnZoom.setTitle("확대", for: .normal)
+        }
+        else {
+            newWidth = imgView.frame.width*scale
+            newHight = imgVisew.frame.height*scale
+            btnZoom.setTitle("축소", for: .normal)
+        }
+        imgView.frame.size = CGSize(width:newWidth, height : newHight)
+        isZoom = !isZoom
+    
+    
+    }
+    
+    
     
     /*
     // MARK: - Navigation

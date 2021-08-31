@@ -11,7 +11,7 @@
         <!--메인화면-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Navigation" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="NavigationMission" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -65,7 +65,7 @@
         <!--수정화면-->
         <scene sceneID="NLS-dO-Iwn">
             <objects>
-                <viewController title="수정화면" id="UYa-vw-Nql" customClass="EditViewController" customModule="Navigation" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController title="수정화면" id="UYa-vw-Nql" customClass="EditViewController" customModule="NavigationMission" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Vak-Jl-1U6">
                         <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -113,12 +113,21 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7Dd-ki-U6D">
+                                <rect key="frame" x="168" y="147" width="30" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="확대"/>
+                                <connections>
+                                    <action selector="btnZoom:" destination="UYa-vw-Nql" eventType="touchUpInside" id="HmX-Uw-LBy"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="2Rw-6Z-gog"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
                     <navigationItem key="navigationItem" title="수정화면" id="6qu-f3-0WC"/>
                     <connections>
+                        <outlet property="btnZoom" destination="7Dd-ki-U6D" id="kk2-nG-fuJ"/>
                         <outlet property="lblWay" destination="jef-JE-O8G" id="sdY-9g-eqd"/>
                         <outlet property="swIsOn" destination="sso-nh-kly" id="fjD-Vl-gUp"/>
                         <outlet property="txMessage" destination="yfs-p7-eeJ" id="e30-wO-Wee"/>
