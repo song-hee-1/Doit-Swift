@@ -14,11 +14,15 @@
 		97DD855626BD6B9A00A35107 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 97DD855426BD6B9A00A35107 /* Main.storyboard */; };
 		97DD855826BD6B9B00A35107 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 97DD855726BD6B9B00A35107 /* Assets.xcassets */; };
 		97DD855B26BD6B9B00A35107 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 97DD855926BD6B9B00A35107 /* LaunchScreen.storyboard */; };
+		97E473FB26E203A8000C28A9 /* play.png in Resources */ = {isa = PBXBuildFile; fileRef = 97E473F726E203A8000C28A9 /* play.png */; };
+		97E473FC26E203A8000C28A9 /* stop.png in Resources */ = {isa = PBXBuildFile; fileRef = 97E473F826E203A8000C28A9 /* stop.png */; };
+		97E473FD26E203A8000C28A9 /* pause.png in Resources */ = {isa = PBXBuildFile; fileRef = 97E473F926E203A8000C28A9 /* pause.png */; };
+		97E473FE26E203A8000C28A9 /* record.png in Resources */ = {isa = PBXBuildFile; fileRef = 97E473FA26E203A8000C28A9 /* record.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		9723F03026C0019200420E32 /* Sicilian_Breeze.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Sicilian_Breeze.mp3; sourceTree = "<group>"; };
-		97DD854B26BD6B9A00A35107 /* Audio.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Audio.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		97DD854B26BD6B9A00A35107 /* AudioMission.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AudioMission.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		97DD854E26BD6B9A00A35107 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		97DD855026BD6B9A00A35107 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		97DD855226BD6B9A00A35107 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -26,6 +30,10 @@
 		97DD855726BD6B9B00A35107 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		97DD855A26BD6B9B00A35107 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		97DD855C26BD6B9B00A35107 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		97E473F726E203A8000C28A9 /* play.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = play.png; sourceTree = "<group>"; };
+		97E473F826E203A8000C28A9 /* stop.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = stop.png; sourceTree = "<group>"; };
+		97E473F926E203A8000C28A9 /* pause.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pause.png; sourceTree = "<group>"; };
+		97E473FA26E203A8000C28A9 /* record.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = record.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -50,7 +58,7 @@
 		97DD854C26BD6B9A00A35107 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				97DD854B26BD6B9A00A35107 /* Audio.app */,
+				97DD854B26BD6B9A00A35107 /* AudioMission.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -58,6 +66,10 @@
 		97DD854D26BD6B9A00A35107 /* Audio */ = {
 			isa = PBXGroup;
 			children = (
+				97E473F926E203A8000C28A9 /* pause.png */,
+				97E473F726E203A8000C28A9 /* play.png */,
+				97E473FA26E203A8000C28A9 /* record.png */,
+				97E473F826E203A8000C28A9 /* stop.png */,
 				97DD854E26BD6B9A00A35107 /* AppDelegate.swift */,
 				97DD855026BD6B9A00A35107 /* SceneDelegate.swift */,
 				97DD855226BD6B9A00A35107 /* ViewController.swift */,
@@ -73,9 +85,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		97DD854A26BD6B9A00A35107 /* Audio */ = {
+		97DD854A26BD6B9A00A35107 /* AudioMission */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 97DD855F26BD6B9B00A35107 /* Build configuration list for PBXNativeTarget "Audio" */;
+			buildConfigurationList = 97DD855F26BD6B9B00A35107 /* Build configuration list for PBXNativeTarget "AudioMission" */;
 			buildPhases = (
 				97DD854726BD6B9A00A35107 /* Sources */,
 				97DD854826BD6B9A00A35107 /* Frameworks */,
@@ -85,9 +97,9 @@
 			);
 			dependencies = (
 			);
-			name = Audio;
+			name = AudioMission;
 			productName = Audio;
-			productReference = 97DD854B26BD6B9A00A35107 /* Audio.app */;
+			productReference = 97DD854B26BD6B9A00A35107 /* AudioMission.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -104,7 +116,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 97DD854626BD6B9A00A35107 /* Build configuration list for PBXProject "Audio" */;
+			buildConfigurationList = 97DD854626BD6B9A00A35107 /* Build configuration list for PBXProject "AudioMission" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -117,7 +129,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				97DD854A26BD6B9A00A35107 /* Audio */,
+				97DD854A26BD6B9A00A35107 /* AudioMission */,
 			);
 		};
 /* End PBXProject section */
@@ -128,9 +140,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				97DD855B26BD6B9B00A35107 /* LaunchScreen.storyboard in Resources */,
+				97E473FB26E203A8000C28A9 /* play.png in Resources */,
 				9723F03126C0019200420E32 /* Sicilian_Breeze.mp3 in Resources */,
+				97E473FD26E203A8000C28A9 /* pause.png in Resources */,
+				97E473FE26E203A8000C28A9 /* record.png in Resources */,
 				97DD855826BD6B9B00A35107 /* Assets.xcassets in Resources */,
 				97DD855626BD6B9A00A35107 /* Main.storyboard in Resources */,
+				97E473FC26E203A8000C28A9 /* stop.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -330,7 +346,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		97DD854626BD6B9A00A35107 /* Build configuration list for PBXProject "Audio" */ = {
+		97DD854626BD6B9A00A35107 /* Build configuration list for PBXProject "AudioMission" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				97DD855D26BD6B9B00A35107 /* Debug */,
@@ -339,7 +355,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		97DD855F26BD6B9B00A35107 /* Build configuration list for PBXNativeTarget "Audio" */ = {
+		97DD855F26BD6B9B00A35107 /* Build configuration list for PBXNativeTarget "AudioMission" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				97DD856026BD6B9B00A35107 /* Debug */,
