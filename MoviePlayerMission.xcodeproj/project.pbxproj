@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		974EDC8E26E39718005D75D9 /* Mountaineering.mov in Resources */ = {isa = PBXBuildFile; fileRef = 974EDC8B26E39718005D75D9 /* Mountaineering.mov */; };
+		974EDC8F26E39718005D75D9 /* Seascape.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 974EDC8C26E39718005D75D9 /* Seascape.jpg */; };
+		974EDC9026E39718005D75D9 /* Mountaineering.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 974EDC8D26E39718005D75D9 /* Mountaineering.jpg */; };
 		97843B2E26C4BD0500903CA4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97843B2D26C4BD0500903CA4 /* AppDelegate.swift */; };
 		97843B3026C4BD0500903CA4 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97843B2F26C4BD0500903CA4 /* SceneDelegate.swift */; };
 		97843B3226C4BD0500903CA4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97843B3126C4BD0500903CA4 /* ViewController.swift */; };
@@ -19,7 +22,10 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		97843B2A26C4BD0500903CA4 /* MoviePlayer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MoviePlayer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		974EDC8B26E39718005D75D9 /* Mountaineering.mov */ = {isa = PBXFileReference; lastKnownFileType = video.quicktime; path = Mountaineering.mov; sourceTree = "<group>"; };
+		974EDC8C26E39718005D75D9 /* Seascape.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Seascape.jpg; sourceTree = "<group>"; };
+		974EDC8D26E39718005D75D9 /* Mountaineering.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Mountaineering.jpg; sourceTree = "<group>"; };
+		97843B2A26C4BD0500903CA4 /* MoviePlayerMission.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MoviePlayerMission.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		97843B2D26C4BD0500903CA4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		97843B2F26C4BD0500903CA4 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		97843B3126C4BD0500903CA4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -54,7 +60,7 @@
 		97843B2B26C4BD0500903CA4 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				97843B2A26C4BD0500903CA4 /* MoviePlayer.app */,
+				97843B2A26C4BD0500903CA4 /* MoviePlayerMission.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -77,6 +83,9 @@
 		97843B4126C4BD2400903CA4 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				974EDC8D26E39718005D75D9 /* Mountaineering.jpg */,
+				974EDC8B26E39718005D75D9 /* Mountaineering.mov */,
+				974EDC8C26E39718005D75D9 /* Seascape.jpg */,
 				97843B4326C4BD5500903CA4 /* FastTyping.jpg */,
 				97843B4426C4BD5500903CA4 /* FastTyping.mp4 */,
 				97843B4226C4BD5500903CA4 /* Fireworks.jpg */,
@@ -87,9 +96,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		97843B2926C4BD0500903CA4 /* MoviePlayer */ = {
+		97843B2926C4BD0500903CA4 /* MoviePlayerMission */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 97843B3E26C4BD0600903CA4 /* Build configuration list for PBXNativeTarget "MoviePlayer" */;
+			buildConfigurationList = 97843B3E26C4BD0600903CA4 /* Build configuration list for PBXNativeTarget "MoviePlayerMission" */;
 			buildPhases = (
 				97843B2626C4BD0500903CA4 /* Sources */,
 				97843B2726C4BD0500903CA4 /* Frameworks */,
@@ -99,9 +108,9 @@
 			);
 			dependencies = (
 			);
-			name = MoviePlayer;
+			name = MoviePlayerMission;
 			productName = MoviePlayer;
-			productReference = 97843B2A26C4BD0500903CA4 /* MoviePlayer.app */;
+			productReference = 97843B2A26C4BD0500903CA4 /* MoviePlayerMission.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -118,7 +127,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 97843B2526C4BD0500903CA4 /* Build configuration list for PBXProject "MoviePlayer" */;
+			buildConfigurationList = 97843B2526C4BD0500903CA4 /* Build configuration list for PBXProject "MoviePlayerMission" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -131,7 +140,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				97843B2926C4BD0500903CA4 /* MoviePlayer */,
+				97843B2926C4BD0500903CA4 /* MoviePlayerMission */,
 			);
 		};
 /* End PBXProject section */
@@ -141,11 +150,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				974EDC8F26E39718005D75D9 /* Seascape.jpg in Resources */,
 				97843B4526C4BD5500903CA4 /* Fireworks.jpg in Resources */,
 				97843B3A26C4BD0600903CA4 /* LaunchScreen.storyboard in Resources */,
 				97843B4726C4BD5500903CA4 /* FastTyping.mp4 in Resources */,
+				974EDC9026E39718005D75D9 /* Mountaineering.jpg in Resources */,
 				97843B4626C4BD5500903CA4 /* FastTyping.jpg in Resources */,
 				97843B3726C4BD0600903CA4 /* Assets.xcassets in Resources */,
+				974EDC8E26E39718005D75D9 /* Mountaineering.mov in Resources */,
 				97843B3526C4BD0500903CA4 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -340,7 +352,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		97843B2526C4BD0500903CA4 /* Build configuration list for PBXProject "MoviePlayer" */ = {
+		97843B2526C4BD0500903CA4 /* Build configuration list for PBXProject "MoviePlayerMission" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				97843B3C26C4BD0600903CA4 /* Debug */,
@@ -349,7 +361,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		97843B3E26C4BD0600903CA4 /* Build configuration list for PBXNativeTarget "MoviePlayer" */ = {
+		97843B3E26C4BD0600903CA4 /* Build configuration list for PBXNativeTarget "MoviePlayerMission" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				97843B3F26C4BD0600903CA4 /* Debug */,
