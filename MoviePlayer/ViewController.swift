@@ -24,13 +24,30 @@ class ViewController: UIViewController {
         playVideo(url: url) // 앞에서 얻은 url를 사용하여 비디오를 재생
     }
     
+    @IBAction func btnPlayInternalMovie2(_ sender: UIButton) {
+        // 내부 파일 mov
+        let filePath:String? = Bundle.main.path(forResource: "Mountaineering", ofType: "mov")
+        let url = NSURL(fileURLWithPath: filePath!)
+        
+        playVideo(url: url)
+    }
+    
+    
     @IBAction func btnPlayExternalMovie(_ sender: UIButton) {
         // 외부 파일 mp4, 외부에 링크된 주소를 NSURL 형식으로 변경
         let url = NSURL(string: "https://dl.dropboxusercontent.com/s/e38auz050w2mvud/Fireworks.mp4")!
         
         
         playVideo(url: url) // 앞에서 얻은 url를 사용하여 비디오를 재생
+    }
+    
+
+    
+    @IBAction func btnPlayExternalMovie2(_ sender: UIButton) {
+        // 외부 파일 mov
+        let url = NSURL(string: "https://dl.dropboxusercontent.com/s/ijybpprsmx0bgre/Seascape.mov")!
         
+        playVideo(url: url)
     }
     
     private func playVideo(url: NSURL) {
