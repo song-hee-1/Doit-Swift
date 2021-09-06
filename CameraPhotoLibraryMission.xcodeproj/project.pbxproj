@@ -16,7 +16,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		9757126626C699A900BFB504 /* CameraPhotoLibrary.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CameraPhotoLibrary.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9757126626C699A900BFB504 /* CameraPhotoLibraryMission.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CameraPhotoLibraryMission.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9757126926C699A900BFB504 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9757126B26C699A900BFB504 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		9757126D26C699A900BFB504 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -48,7 +48,7 @@
 		9757126726C699A900BFB504 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				9757126626C699A900BFB504 /* CameraPhotoLibrary.app */,
+				9757126626C699A900BFB504 /* CameraPhotoLibraryMission.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -70,9 +70,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		9757126526C699A900BFB504 /* CameraPhotoLibrary */ = {
+		9757126526C699A900BFB504 /* CameraPhotoLibraryMission */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 9757127A26C699A900BFB504 /* Build configuration list for PBXNativeTarget "CameraPhotoLibrary" */;
+			buildConfigurationList = 9757127A26C699A900BFB504 /* Build configuration list for PBXNativeTarget "CameraPhotoLibraryMission" */;
 			buildPhases = (
 				9757126226C699A900BFB504 /* Sources */,
 				9757126326C699A900BFB504 /* Frameworks */,
@@ -82,9 +82,9 @@
 			);
 			dependencies = (
 			);
-			name = CameraPhotoLibrary;
+			name = CameraPhotoLibraryMission;
 			productName = CameraPhotoLibrary;
-			productReference = 9757126626C699A900BFB504 /* CameraPhotoLibrary.app */;
+			productReference = 9757126626C699A900BFB504 /* CameraPhotoLibraryMission.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -101,7 +101,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 9757126126C699A900BFB504 /* Build configuration list for PBXProject "CameraPhotoLibrary" */;
+			buildConfigurationList = 9757126126C699A900BFB504 /* Build configuration list for PBXProject "CameraPhotoLibraryMission" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -114,7 +114,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				9757126526C699A900BFB504 /* CameraPhotoLibrary */,
+				9757126526C699A900BFB504 /* CameraPhotoLibraryMission */,
 			);
 		};
 /* End PBXProject section */
@@ -320,7 +320,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		9757126126C699A900BFB504 /* Build configuration list for PBXProject "CameraPhotoLibrary" */ = {
+		9757126126C699A900BFB504 /* Build configuration list for PBXProject "CameraPhotoLibraryMission" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				9757127826C699A900BFB504 /* Debug */,
@@ -329,7 +329,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		9757127A26C699A900BFB504 /* Build configuration list for PBXNativeTarget "CameraPhotoLibrary" */ = {
+		9757127A26C699A900BFB504 /* Build configuration list for PBXNativeTarget "CameraPhotoLibraryMission" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				9757127B26C699A900BFB504 /* Debug */,
