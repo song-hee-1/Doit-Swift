@@ -16,7 +16,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		9745E77B26CDEA9D00CBF75B /* TapTouch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TapTouch.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9745E77B26CDEA9D00CBF75B /* TapTouchMission.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TapTouchMission.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9745E77E26CDEA9D00CBF75B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9745E78026CDEA9D00CBF75B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		9745E78226CDEA9D00CBF75B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -48,7 +48,7 @@
 		9745E77C26CDEA9D00CBF75B /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				9745E77B26CDEA9D00CBF75B /* TapTouch.app */,
+				9745E77B26CDEA9D00CBF75B /* TapTouchMission.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -70,9 +70,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		9745E77A26CDEA9D00CBF75B /* TapTouch */ = {
+		9745E77A26CDEA9D00CBF75B /* TapTouchMission */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 9745E78F26CDEA9E00CBF75B /* Build configuration list for PBXNativeTarget "TapTouch" */;
+			buildConfigurationList = 9745E78F26CDEA9E00CBF75B /* Build configuration list for PBXNativeTarget "TapTouchMission" */;
 			buildPhases = (
 				9745E77726CDEA9D00CBF75B /* Sources */,
 				9745E77826CDEA9D00CBF75B /* Frameworks */,
@@ -82,9 +82,9 @@
 			);
 			dependencies = (
 			);
-			name = TapTouch;
+			name = TapTouchMission;
 			productName = TapTouch;
-			productReference = 9745E77B26CDEA9D00CBF75B /* TapTouch.app */;
+			productReference = 9745E77B26CDEA9D00CBF75B /* TapTouchMission.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -101,7 +101,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 9745E77626CDEA9D00CBF75B /* Build configuration list for PBXProject "TapTouch" */;
+			buildConfigurationList = 9745E77626CDEA9D00CBF75B /* Build configuration list for PBXProject "TapTouchMission" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -114,7 +114,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				9745E77A26CDEA9D00CBF75B /* TapTouch */,
+				9745E77A26CDEA9D00CBF75B /* TapTouchMission */,
 			);
 		};
 /* End PBXProject section */
@@ -320,7 +320,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		9745E77626CDEA9D00CBF75B /* Build configuration list for PBXProject "TapTouch" */ = {
+		9745E77626CDEA9D00CBF75B /* Build configuration list for PBXProject "TapTouchMission" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				9745E78D26CDEA9E00CBF75B /* Debug */,
@@ -329,7 +329,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		9745E78F26CDEA9E00CBF75B /* Build configuration list for PBXNativeTarget "TapTouch" */ = {
+		9745E78F26CDEA9E00CBF75B /* Build configuration list for PBXNativeTarget "TapTouchMission" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				9745E79026CDEA9E00CBF75B /* Debug */,
