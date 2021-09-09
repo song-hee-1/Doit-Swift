@@ -16,7 +16,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		9745E79B26CDEE9A00CBF75B /* Sketch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Sketch.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9745E79B26CDEE9A00CBF75B /* SketchMission.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SketchMission.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9745E79E26CDEE9A00CBF75B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9745E7A026CDEE9A00CBF75B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		9745E7A226CDEE9A00CBF75B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -48,7 +48,7 @@
 		9745E79C26CDEE9A00CBF75B /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				9745E79B26CDEE9A00CBF75B /* Sketch.app */,
+				9745E79B26CDEE9A00CBF75B /* SketchMission.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -70,9 +70,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		9745E79A26CDEE9A00CBF75B /* Sketch */ = {
+		9745E79A26CDEE9A00CBF75B /* SketchMission */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 9745E7AF26CDEE9B00CBF75B /* Build configuration list for PBXNativeTarget "Sketch" */;
+			buildConfigurationList = 9745E7AF26CDEE9B00CBF75B /* Build configuration list for PBXNativeTarget "SketchMission" */;
 			buildPhases = (
 				9745E79726CDEE9A00CBF75B /* Sources */,
 				9745E79826CDEE9A00CBF75B /* Frameworks */,
@@ -82,9 +82,9 @@
 			);
 			dependencies = (
 			);
-			name = Sketch;
+			name = SketchMission;
 			productName = Sketch;
-			productReference = 9745E79B26CDEE9A00CBF75B /* Sketch.app */;
+			productReference = 9745E79B26CDEE9A00CBF75B /* SketchMission.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -101,7 +101,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 9745E79626CDEE9A00CBF75B /* Build configuration list for PBXProject "Sketch" */;
+			buildConfigurationList = 9745E79626CDEE9A00CBF75B /* Build configuration list for PBXProject "SketchMission" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -114,7 +114,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				9745E79A26CDEE9A00CBF75B /* Sketch */,
+				9745E79A26CDEE9A00CBF75B /* SketchMission */,
 			);
 		};
 /* End PBXProject section */
@@ -320,7 +320,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		9745E79626CDEE9A00CBF75B /* Build configuration list for PBXProject "Sketch" */ = {
+		9745E79626CDEE9A00CBF75B /* Build configuration list for PBXProject "SketchMission" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				9745E7AD26CDEE9B00CBF75B /* Debug */,
@@ -329,7 +329,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		9745E7AF26CDEE9B00CBF75B /* Build configuration list for PBXNativeTarget "Sketch" */ = {
+		9745E7AF26CDEE9B00CBF75B /* Build configuration list for PBXNativeTarget "SketchMission" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				9745E7B026CDEE9B00CBF75B /* Debug */,

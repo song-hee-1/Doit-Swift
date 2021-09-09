@@ -12,19 +12,41 @@ class ViewController: UIViewController {
     
     var lastPoint: CGPoint! // 바로 전에 터치하거나 이동한 위치
     var lineSize: CGFloat = 2.0 // 선의 두께를 2.0으로 설정
-    var lineColor = UIColor.red.cgColor // 선 색상을 빨간색으로 설정
+    var lineColor = UIColor.black.cgColor // 선 색상을 빨간색으로 설정
     
-
+    @IBOutlet var txLineThick: UITextField!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
+        txLineThick.text = String(Int(lineSize))
         // Do any additional setup after loading the view.
     }
 
+    @IBAction func btnLineBlack(_ sender: UIButton) {
+        lineColor = UIColor.black.cgColor
+    }
+    
+    
+    @IBAction func btnLineRed(_ sender: UIButton) {
+        lineColor = UIColor.red.cgColor
+    }
+    
+    
+    @IBAction func btnLineGreen(_ sender: UIButton) {
+        lineColor = UIColor.green.cgColor
+    }
+    
+    @IBAction func btnLineBlue(_ sender: UIButton) {
+        lineColor = UIColor.blue.cgColor
+    }
+    
+    
     @IBAction func clearImageView(_ sender: UIButton) {
         imgView.image = nil // 이미지 뷰의 이미지를 삭제함
 
 
     }
+    
     
     
     override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {
@@ -88,5 +110,19 @@ class ViewController: UIViewController {
     }
 }
     
+    @IBAction func txtEditChanged(_ sender: UITextField) {
+        if txLineThick.text != "" {
+            lineSize = CGFloat(Int(txLineThick.text!)!)
+        }
+    }
+    
+    @IBAction func txtDidOnExit(_ sender: UITextField) {
+        lineSize = CGFloat(Int(txLineThick.text!)!)
+    }
+    
+    
+    @IBAction func txtTouchDown(_ sender: UITextField) {
+        txLineThick.selectAll(UITextField.self)
+    }
+    
 }
-
