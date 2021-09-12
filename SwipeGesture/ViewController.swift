@@ -23,9 +23,6 @@ class ViewController: UIViewController {
         pageControl.currentPageIndicatorTintColor = UIColor.gray
         imgView.image = UIImage(named: images[0])
         
-        // Do any additional setup after loading the view.
-  
-        
         let swipeLeft = UISwipeGestureRecognizer(target: self, action: #selector(ViewController.respondToSwipeGesture( _:)))
         swipeLeft.direction = UISwipeGestureRecognizer.Direction.left
         self.view.addGestureRecognizer(swipeLeft)
