@@ -17,7 +17,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		9739B86C26D13C990020E6D9 /* PinchGesture.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PinchGesture.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9739B86C26D13C990020E6D9 /* PinchGestureMission.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PinchGestureMission.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9739B86F26D13C990020E6D9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9739B87126D13C990020E6D9 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		9739B87326D13C990020E6D9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -50,7 +50,7 @@
 		9739B86D26D13C990020E6D9 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				9739B86C26D13C990020E6D9 /* PinchGesture.app */,
+				9739B86C26D13C990020E6D9 /* PinchGestureMission.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -73,9 +73,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		9739B86B26D13C990020E6D9 /* PinchGesture */ = {
+		9739B86B26D13C990020E6D9 /* PinchGestureMission */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 9739B88026D13C9A0020E6D9 /* Build configuration list for PBXNativeTarget "PinchGesture" */;
+			buildConfigurationList = 9739B88026D13C9A0020E6D9 /* Build configuration list for PBXNativeTarget "PinchGestureMission" */;
 			buildPhases = (
 				9739B86826D13C990020E6D9 /* Sources */,
 				9739B86926D13C990020E6D9 /* Frameworks */,
@@ -85,9 +85,9 @@
 			);
 			dependencies = (
 			);
-			name = PinchGesture;
+			name = PinchGestureMission;
 			productName = PinchGesture;
-			productReference = 9739B86C26D13C990020E6D9 /* PinchGesture.app */;
+			productReference = 9739B86C26D13C990020E6D9 /* PinchGestureMission.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -104,7 +104,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 9739B86726D13C990020E6D9 /* Build configuration list for PBXProject "PinchGesture" */;
+			buildConfigurationList = 9739B86726D13C990020E6D9 /* Build configuration list for PBXProject "PinchGestureMission" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -117,7 +117,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				9739B86B26D13C990020E6D9 /* PinchGesture */,
+				9739B86B26D13C990020E6D9 /* PinchGestureMission */,
 			);
 		};
 /* End PBXProject section */
@@ -324,7 +324,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		9739B86726D13C990020E6D9 /* Build configuration list for PBXProject "PinchGesture" */ = {
+		9739B86726D13C990020E6D9 /* Build configuration list for PBXProject "PinchGestureMission" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				9739B87E26D13C9A0020E6D9 /* Debug */,
@@ -333,7 +333,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		9739B88026D13C9A0020E6D9 /* Build configuration list for PBXNativeTarget "PinchGesture" */ = {
+		9739B88026D13C9A0020E6D9 /* Build configuration list for PBXNativeTarget "PinchGestureMission" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				9739B88126D13C9A0020E6D9 /* Debug */,
